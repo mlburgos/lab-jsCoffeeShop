@@ -93,7 +93,7 @@
         function () {return makeCoffee('evt', 'latte'); });
 
     hotChocolate.addEventListener('click', 
-        function () {return makeCoffee('evt', 'hot-chocolate'); });
+        function () {return makeCoffee('evt', 'hot chocolate'); });
 
     // use this JavaScript object in further study step
 
@@ -107,7 +107,7 @@
 
     function revenue () {
         var totalRevenue = 0;
-        for (drink of drinksOrdered) {
+        for (let drink of drinksOrdered) {
             totalRevenue += prices[drink];
         }
         return totalRevenue;
